@@ -110,7 +110,7 @@ p{
 }
 /* Showcase */
 #showcase{
-    background: #333 url('/img/Buildings.JPG') no-repeat center center/cover ;
+    background: #333 url('img/Buildings.JPG') no-repeat center center/cover ;
     height:100vh;
     color:#fff;
 }
