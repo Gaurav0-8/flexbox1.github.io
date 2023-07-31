@@ -97,6 +97,7 @@
         <div class="contact-form bg-primary p-2">
             <h2 class="m-heading"><span class="text-dark">Contact</span> Us</h2>
             <p>Please use the form below to contact us</p>
+            <form action="process.php" method="POST">
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" placeholder="Enter Name">
@@ -123,7 +124,7 @@
      <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script>
 // Smooth Scrolling javascript
-$('#navbar a, .btn').on('click', function(event) {
+$('#navbar a').on('click', function(event) {
 if (this.hash !=='') {
     event.preventDefault();
     const hash = this.hash;
